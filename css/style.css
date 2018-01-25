@@ -137,6 +137,8 @@ header {
 .container_table_cell p {
   color: #fff;
   font-size: 27px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
 }
 
 /* Portfolio */
@@ -164,19 +166,26 @@ header {
 }
 
 .work-info {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   text-align: center;
-  padding: 125px 10px;
   opacity: 0;
 }
 
 .work-info:hover {
   opacity: 1;
+}
+
+.work-info h3 {
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-transform: capitalize;
+  line-height: 360px;
 }
 
 /* About */
@@ -210,6 +219,7 @@ header {
   letter-spacing: 1px;
   padding: 10px 0;
   text-transform: capitalize;
+  font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 .skill-content p {
@@ -225,7 +235,7 @@ header {
 
 .button-group .download_resume, .button-group .contact_me {
   display: inline-block;
-  padding: 0 20px;
+  padding: 0 14px;
   margin-top: 50px;
 }
 
@@ -236,6 +246,7 @@ header {
   border-radius: 20px;
   padding: 10px 20px;
   text-transform: capitalize;
+  font-family: 'Lato', sans-serif;
 }
 
 .button-group a:hover {
@@ -253,12 +264,12 @@ header {
 footer {
   padding: 10px 0;
   background-color: #333;
-  color: #fff;
   text-align: center;
-  font-family: 'Lato', sans-serif;
 }
 
 .footer-content p {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
   margin-bottom: 10px;
 }
 
@@ -311,11 +322,11 @@ footer {
 
 @media screen and (max-width: 767px) {
   .container_table_cell h2 {
-    font-size: 52px;
+    font-size: 47px;
   }
   
   .container_table_cell p {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .col-work {
